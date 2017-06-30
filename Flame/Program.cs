@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.Windows.Forms;
-using ComponentFactory.Krypton.Toolkit;
 using System.Threading;
 using System.Runtime.InteropServices;
 
@@ -19,7 +17,7 @@ namespace KryptonForm
 
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new KryptonForm.Form1());
+			Application.Run(new Form1());
 		}
 
 		[DllImport("user32.dll")]
